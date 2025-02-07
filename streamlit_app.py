@@ -1,8 +1,5 @@
 import streamlit as st
 import pandas as pd
 
-st.write("Here's our first attempt at using data to create a table:")
-st.write(pd.DataFrame({
-    'first column': [1, 2, 3, 4],
-    'second column': [10, 20, 30, 40]
-}))
+st.write("Tabela 118 - IPCA dessazonalizado:")
+st.write(pd.read_csv('/home/deezinn/Documentos/Python/Meus Projetos Pessoais/IPCA-Streamlit/data/Tabela 118 - IPCA dessazonalizado.csv',sep=','))
