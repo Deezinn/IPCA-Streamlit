@@ -9,4 +9,4 @@ st.write("### Tabela 118 - IPCA dessazonalizado:")
 st.dataframe(df)  # Exibe o dataframe corretamente
 
 # Testando a saída no terminal (apenas para debug)
-
+print(df)
