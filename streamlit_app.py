@@ -10,8 +10,9 @@ if os.path.exists(file_path):
 
     st.title("Tabela 118 - IPCA Dessazonalizado")
     st.write("### DataFrame carregado com sucesso:")
-    st.dataframe(df)  
+    st.dataframe(df)
 else:
     st.error(f"❌ ERRO: Arquivo CSV não encontrado em {file_path}. Verifique o caminho do arquivo.")
 
 st.write("✅ Aplicação Streamlit rodando corretamente!")
+st.write('teste')
