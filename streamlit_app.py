@@ -10,4 +10,4 @@ df = pd.read_csv(file_path, sep=",", encoding="utf-8")
 st.title("Tabela 118 - IPCA Dessazonalizado")
 st.dataframe(df)
 
-st.write('teste')
+st.write('andre luiz souza nascimento')
