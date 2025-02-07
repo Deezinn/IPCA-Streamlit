@@ -5,7 +5,7 @@ import os
 st.write("Tabela 118 - IPCA dessazonalizado:")
 
 # Caminho do arquivo
-file_path = r'/home/deezinn/Documentos/Python/Meus Projetos Pessoais/IPCA-Streamlit/data/Tabela 118 - IPCA dessazonalizado.csv'
+file_path = r'data/Tabela 118 - IPCA dessazonalizado.csv'
 
 # Verificar se o arquivo existe antes de carregar
 if os.path.exists(file_path):
