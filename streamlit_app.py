@@ -11,3 +11,4 @@ st.title("Tabela 118 - IPCA Dessazonalizado")
 st.dataframe(df)
 
 st.write('andre luiz souza nascimento')
+print('aqui')
